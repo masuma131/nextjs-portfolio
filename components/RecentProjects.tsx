@@ -20,7 +20,7 @@ const RecentProjects = () => {
               key={item.id}
             >
               <PinContainer
-                title={item.link}
+                title={item.title}
                 // href="https://twitter.com/mannupaaji"
                 href={item.link}
               >

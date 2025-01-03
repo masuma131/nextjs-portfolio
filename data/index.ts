@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building mobile applications",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -69,71 +69,92 @@ export const gridItems = [
   },
 ];
 
+//use this site for finding icon:www.svgrepo.com/vectors/
 export const projects = [
   {
     id: 1,
-    title: "Website for an E-Learning Service Provider",
-    des: "Check out a fully functional and responsive website developed using JavaScript, HTML, and CSS",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "elearnify360.com/",
+    title: "eLearnify360",
+    des: "A fully functional business website developed using JavaScript, HTML, and CSS",
+    img: "/p1.png",
+    iconLists: ["/html.svg", "/css.svg", "/javascript.svg"],
+    link: "https://elearnify360.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "EduHub",
+    des: "A web app for selling online courses, built with JavaScript, CSS, and HTML.",
+    img: "/p2.png",
+    iconLists: ["/html.svg", "/css.svg", "/javascript.svg", "/firebase.svg"],
+    link: "https://masuma-eduhub.netlify.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "AnalytiX",
+    des: "A landing page for an analytics app, built with React, TypeScript, and Tailwind CSS.",
+    img: "/p3.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://masuma-analytix.netlify.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "React Jobs",
+    des: "A job search app built with React, TypeScript, and Tailwind CSS.",
+    img: "/p4.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://github.com/masuma131/react-job-app",
+  },
+  {
+    id: 5,
+    title: "Gesture Pong",
+    des: "A pong game controlled using hand gestures, built with Python and OpenCV library.",
+    img: "/p5.png",
+    iconLists: ["/python.svg", "/opencv.svg"],
+    link: "https://github.com/masuma131/GesturePong",
+  },
+  {
+    id: 6,
+    title: "Flappy Bird Game",
+    des: "An advanced flappy bird game built with C++ and SDL library.",
+    img: "/p6.png",
+    iconLists: ["/c-plus.svg"],
+    link: "https://github.com/masuma131/Flappy-Bird-Game",
+  },
+  {
+    id: 7,
+    title: "Imaginary Maze Game",
+    des: "A microcontroller-based virtual maze game built with C and Assembly",
+    img: "/p7.png",
+    iconLists: ["/c-1.svg", "/nxp.svg"],
+    link: "https://github.com/masuma131/Imaginary-Maze-Game",
+  },
+  {
+    id: 8,
+    title: "AC Circuit Simulator",
+    des: "An analog circuit simulator built with C++ and OpenGL library.",
+    img: "/p8.png",
+    iconLists: ["/c-plus.svg", "/opengl.svg"],
+    link: "https://github.com/masuma131/Analog-Circuit-Simulator",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Masuma is the consummate professional. She grasped my concept quickly and expertly to give me just what I wanted. I am already making plans to work with her again on another project. If you are looking for professionalism and attention to the details of your project, Masuma is who you want to partner with.",
+    name: "Lonnie Jenkins",
+    title: " ",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Really great working with Masuma, she is very polite, great attention to detail and went above and beyond to meet my expectations and requirements. We will be working with her again, and are looking forward to welcoming her to our freelancing network.",
+    name: "Sophie Nicolay",
+    title: " ",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Masuma was amazing!! She was super responsive and good at asking questions when needed. Her communication was excellent and the project came out wonderful!! Super happy! Will be working with her again.",
+    name: "Nev Khalil",
+    title: " ",
   },
 ];
 

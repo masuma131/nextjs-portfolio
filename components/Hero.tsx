@@ -54,17 +54,31 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Masuma, a Software Engineering Student and aspiring web
-            developer.
+            Hi! I&apos;m Masuma, a Software Developer and aspiring AI Engineer.
           </p>
 
-          <a href="#about" onClick={handleButtonClick}>
-            <MagicButton
-              title="See my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex flex-row gap-4">
+            <a href="#about" onClick={handleButtonClick}>
+              <MagicButton
+                title="See my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+
+            <a
+              href="/resume.pdf"
+              download="Masuma_Resume"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MagicButton
+                title="Download my resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
